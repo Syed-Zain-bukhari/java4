@@ -65,6 +65,83 @@ console.log( removedItem3);
 
 
 
+//Chapter 15 Array (I)
+
+//Q 1,2,3
+var arr =[] ;
+arr =  ["input"];
+var alphabet =  ["h" , "i", "j", "k", "l", "m"];
+alert(alphabet[2]);
+
+//Q 4
+document.write(alphabet.length);
+
+//Q 5
+arr.splice(1,0,"output");
+alert(arr[1]);
+
+//Chapter 16 Array (II)
+
+//Q 1
+
+var value = ["One"];
+value.push("Two");
+alert(value[1]);
+
+//Q 2
+var Alphabet=["h" , "i", "j", "k", "l", "m"];
+Alphabet.pop();
+//Q 3
+Alphabet.push(5,"o");
+
+//Chapter 16 Array (III)
+
+var sizes = ["S","M","L","XL","XXL"];
+sizes.shift();
+
+//Q 2
+var sizes = ["S","M","L","XL","XXL"];
+sizes.unshift(10,15,20);
+
+//Q 3
+var arr = [2];
+arr.unshift(1);
+alert(arr[0]);
+
+//Q 4
+var sizes = ["S","M","XL","XXL"];
+var our = sizes.splice(2,0,"L");
+
+//Q 5
+var sizes = ["S","M","XL","XXL"];
+var newSizes = sizes.slice(0,3);
+alert(newSizes);
+
+//Q 6
+var pets = ["dog","cat","fox","duck","frog"];
+pets.splice(1,4,"horse","cow");
+console.log(pets);
+
+//Q 7
+var pets = ["dog","cat","fox","duck","frog"];
+pets.splice(1,2);
+console.log(pets);
+
+//Q 8
+var pets = ["dog","cat","fox","duck","frog"];
+pets.slice(3,4);
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
